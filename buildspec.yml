@@ -6,12 +6,12 @@ phases:
     commands:
       - echo "Installing dependencies..."
       - npm install
-      - npm install -g @angular/cli@10.0.8
+      - npx create-react-app my-app
   build:
     commands:
-      - echo "Building Angular project..."
-      - ng build --prod
+      - echo "Building React project..."
+      - npm run build
   post_build:
     commands:
       - echo "Updating files in the S3 bucket..."
-      - aws s3 sync dist/github-s3-angular-app/ s3://your-aws-s3-bucket-name --delete
+      - aws s3 sync dist/github-s3-01/ s3://my.example.s3.bucket21 --delete
