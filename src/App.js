@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          React 3rd deployment
+          React $rd deploymentfdugy
         </a>
       </header>
     </div>
