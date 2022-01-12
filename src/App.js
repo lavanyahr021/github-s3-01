@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App0iu.js</code> and save to reloaddd.
+          AWS# Using S3 Bucket
         </p>
         <a
           className="App-link"
@@ -15,11 +15,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React sucessfull deployed
+          React 3rd deployment
         </a>
       </header>
     </div>
   );
 }
-
 export default App;
